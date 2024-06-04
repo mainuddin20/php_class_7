@@ -139,19 +139,3 @@
 //       $person1->personDeatails();
 //       $person1->setid(22);
 
-
-$servername="localhost";
-$username="root";
-$password="";
-$bdname="practice";
-
-$conn=mysqli_connect($servername,$username,$password,$bdname);
-      
-
-
- if(!$conn){
-       //die("connection failed".mysqli_connect_error());
-       echo "error connecting to database";
- }
- 
- echo "database Connection successful";
